@@ -1,0 +1,58 @@
+Xft.dpi: 144
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+! color scheme and opacity
+! gruvbox-dark https://github.com/morhetz/gruvbox
+! URxvt.depth:       32
+! URxvt.color0:      #000000    /* black          */
+! URxvt.color1:      #ff0000    /* red            */
+! URxvt.color2:      #00ff00    /* green          */
+! URxvt.color3:      #ffff00    /* yellow         */
+! URxvt.color4:      #0000ff    /* blue           */
+! URxvt.color5:      #ff00ff    /* magenta        */
+! URxvt.color6:      #00ffff    /* cyan           */
+! URxvt.color7:      #ffffff    /* white          */
+! URxvt.color8:      #333333    /* bright black   */
+! URxvt.color9:      #ff3333    /* bright red     */
+! URxvt.color10:     #33ff33    /* bright green   */
+! URxvt.color11:     #ffff33    /* bright yellow  */
+! URxvt.color12:     #3333ff    /* bright blue    */
+! URxvt.color13:     #ff33ff    /* bright magenta */
+! URxvt.color14:     #33ffff    /* bright cyan    */
+! URxvt.color15:     #ffffff    /* bright white   */
+! URxvt.foreground:  #ffffff
+! URxvt.background:  [70]#000000
+! URxvt.background:  rgba:1111/1111/1111/ffff
+! URxvt.colorIT:     #8ec07c
+! URxvt.colorBD:     #fe8019
+! URxvt.colorUL:     #83a598
+! URxvt.scrollColor: #504945
+! URxvt.troughColor: #3C3836
+
+!! URxvt Appearance
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+URxvt.internalBorder: 3
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+URxvt.pointerBlank: true
+URxvt.saveline: 16384
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.urgentOnBell: true
+URxvt.iso14755: false
+URxvt.fading: 40
+! URxvt.perl-ext-common: default,matcher,tabbed,resize-font
+URxvt.perl-ext-common: default,matcher,tabbedex,resize-font
+URxvt.font: xft:Ricty Discord-16:pixelsize=24
+! URxvt.keysym.C-Down:  resize-font:smaller
+! URxvt.keysym.C-Up:    resize-font:bigger
+! URxvt.tabbed.new-button: true
+URxvt.keysym.Control-t: perl:tabbedex:new_tab
+URxvt.keysym.Control-Tab: perl:tabbedex:next_tab
+URxvt.keysym.Control-Shift-Tab: perl:tabbedex:prev_tab
